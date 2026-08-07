@@ -24,7 +24,7 @@ public class DewlapinesBunnyPet {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public DewlapinesBunnyPet (IEventBus modEventBus, ModContainer modContainer) {
+    public DewlapinesBunnyPet(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
