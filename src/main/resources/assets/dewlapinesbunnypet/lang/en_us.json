@@ -1,13 +1,13 @@
 {
-  "itemGroup.dewlapinesbunnypet": "Example Mod Tab",
   "block.dewlapinesbunnypet.bellball": "Example Block",
-  "item.dewlapinesbunnypet.bellball": "Bell Ball",
-
   "dewlapinesbunnypet": "Example Mod Configs",
-  "dewlapinesbunnypet.configuration.section.dewlapinesbunnypet.common.toml": "Example Mod Configs",
-  "dewlapinesbunnypet.configuration.section.dewlapinesbunnypet.common.toml.title": "Example Mod Configs",
   "dewlapinesbunnypet.configuration.items": "Item List",
   "dewlapinesbunnypet.configuration.logDirtBlock": "Log Dirt Block",
+  "dewlapinesbunnypet.configuration.magicNumber": "Magic Number",
   "dewlapinesbunnypet.configuration.magicNumberIntroduction": "Magic Number Text",
-  "dewlapinesbunnypet.configuration.magicNumber": "Magic Number"
+  "dewlapinesbunnypet.configuration.section.dewlapinesbunnypet.common.toml": "Example Mod Configs",
+  "dewlapinesbunnypet.configuration.section.dewlapinesbunnypet.common.toml.title": "Example Mod Configs",
+  "item.dewlapinesbunnypet.bellball": "Bell Ball",
+  "item.dewlapinesbunnypet.cuptoy": "Cup Toy",
+  "itemGroup.dewlapinesbunnypet": "Example Mod Tab"
 }

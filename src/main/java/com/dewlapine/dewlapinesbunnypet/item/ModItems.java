@@ -3,7 +3,6 @@ package com.dewlapine.dewlapinesbunnypet.item;
 import com.dewlapine.dewlapinesbunnypet.DewlapinesBunnyPet;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -16,9 +15,7 @@ public class ModItems {
     public static final DeferredItem<Item> CUPTOY = ITEMS.register(name = "cuptoy",
             () -> new Item(new Item.Properties()));
 
-    @SubscribeEvent
-
-    public void register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
 }

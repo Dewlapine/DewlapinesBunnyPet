@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "texture": {
-    "layer0": "dewlapinesbunnypet:item/bellball"
+    "layer0": "dewlapinesbunnypet:item/cuptoy"
   }
 }

@@ -47,17 +47,17 @@ public class DewlapinesBunnyPet {
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void addCreative(Event event) {
-    }
+    ModItems.register(modEventBus);
 
-    private void commonSetup(FMLCommonSetupEvent event) {
+    modEventBus.addListener(this::addCreative);
+    private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
 
     // Add the example block item to the building blocks tab
     //MyItemsClass.MY_ITEM is a Supplier<? extends Item>, MyBlocksClass.MY_BLOCK is a Supplier<? extends Block>
     @SubscribeEvent // on the mod event bus
-    public static void buildContents(BuildCreativeModeTabContentsEvent event) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
         // Is this the tab we want to add to?
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BELLBALL);
